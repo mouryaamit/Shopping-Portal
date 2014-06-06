@@ -1,0 +1,21 @@
+//created by Amit on 5/5/14.
+.container
+    .col-lg-12
+        form(name="contactForm", method="post", novalidate)
+            .row.form-group
+                label.control-label.col-xs-2  Your Name
+                    span(style='color:red') *
+                .col-xs-8(ng-class="{ 'has-error' : contactForm.name.$invalid }")
+                    input.form-control(name='name', ng-model='name', type='text', value='', required, autofocus)
+            .row.form-group
+                label.control-label.col-xs-2  Your Email
+                    span(style='color:red') *
+                .col-xs-8(ng-class="{ 'has-error' : contactForm.email.$invalid }")
+                    input.form-control(name='email', ng-model='email', type='email', value='', required)
+            .row.form-group
+                label.control-label.col-xs-2  Your Message
+                    span(style='color:red') *
+                .col-xs-8(ng-class="{ 'has-error' : contactForm.message.$invalid }")
+                    textarea.form-control(name='message', ng-model='message', rows='7', required)
+            .row.form-group(align='center')
+                input.btn.btn-primary(type='button', ng-click='send()', value='Send Message', ng-disabled="contactForm.name.$invalid || contactForm.email.$invalid || contactForm.message.$invalid")

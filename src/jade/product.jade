@@ -1,0 +1,27 @@
+//created by Amit on 5/5/14.
+.container
+    .col-lg-5.border(align='center')
+        img.product-img(src='{{product.imageUrl}}')
+    .col-lg-1
+    .col-lg-6
+        .col-lg-12(align='center')
+            | {{product.productName}}
+        hr
+        .row.form-group
+                label.control-label.col-xs-4 Description
+                .col-xs-8(style='text-align:justify')
+                    | {{product.description}}
+        hr
+        form(method='POST', name='productForm',novalidate)
+            .row.form-group
+                label.control-label.col-xs-4 Quantity
+                    span(style='color:red') *
+                .col-xs-8(ng-class="{ 'has-error' : productForm.quantity.$invalid }")
+                    select.form-control(name='quantity', ng-model='quantity', ng-options='count as count for count in available', required,autofocus)
+                        option(value='',selected) --select--
+            .row.form-group
+                label.control-label.col-xs-4 Price
+                .col-xs-8
+                    | {{product.price|currency:"Rs."}}
+            .row.form-group(align='center')
+                input.btn.btn-danger(type='button', ng-click='Buy()',value='Add To Cart', ng-disabled="productForm.quantity.$invalid")

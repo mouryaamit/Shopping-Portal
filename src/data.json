@@ -1,0 +1,123 @@
+[
+    {
+        "productID":"213432",
+        "productName":"Saree",
+        "available":"4",
+        "price":"1500",
+        "imageUrl":"/images/saree.jpg",
+        "description":"The fabulous embroidery all over makes this peach coloured saree look unique and appealing. This pretty creation from Subhash Sarees is a smart pick for special occasions. Made from chiffon, this 5.5 m saree is light in weight and easy to drape. Further, it comes with a 0.80 m blouse piece."
+
+    },
+    {
+        "productID":"745123",
+        "productName":"Laptop",
+        "available":"2",
+        "price":"38000",
+        "imageUrl":"/images/laptop.jpg",
+        "description":"Packed with advanced features and elegant look, Dell Vostro 3446 is an amazing addition in the New Vostro 14 3000 Series. The laptop features Intel Core i3 (4th Gen) processor with Ubuntu Linux operating system. With its 14 inches LED Backlit Display with Anti-Glare and HD resolution screen, Vostro 3446 gives a fine viewing experience to the users. As far as memory is concerned, 4 GB RAM in addition to 500 GB HDD capacity and SATA hard drive provides a huge storage space to save as well as documents, presentations, videos, images or movies. Further, the laptop is provided with 2 GB NVIDIA discrete graphics in order to boost its performance. Stay assured for sharp, non-pixelated visuals and graphics in this Dell laptop. With its smart body and excellent features, Dell Vostro 3446 becomes the perfect choice for patrons seeking a wise buying option."
+    },
+    {
+        "productID":"089313",
+        "productName":"LCD TV",
+        "available":"4",
+        "price":"25000",
+        "imageUrl":"/images/tv.jpg",
+        "description":"The LG 22CS470 LCD TV is a HD LCD TV with Smart Energy Saving PLUS and USB 2.0 support. The 22CS470 TV from LG boasts of HD resolution that displays pictures in utmost clarity. The television has a medium width bezel that does not hamper your viewing angle and also boasts of the Brush-line design. The screen of the LG 22CS470 is fitted with an IPS Advanced LCD Panel that offers uniform viewing and prevents glare. This means you can choose to sit in any corner of the room and yet enjoy a comprehensive view of the TV. The 22CS470 LCD TV has a screen size of 22 inch with a native resolution of 1366 x 768 pixels that shows off crystal clear visuals. With Picture Wizard II, the LGâ€™s picture quality control program installed in LG TVs, easy adjustment of picture quality is possible with on-screen reference points for key picture quality elements such as black level, color, tint, sharpness and backlight levels. "
+    },
+    {
+        "productID":"336543",
+        "productName":"Headphone",
+        "available":"34",
+        "price":"499",
+        "imageUrl":"/images/headphone.jpg",
+        "description":"Groove to the music with Sony MDR-ZX100A Headphones. These stylish headphones are perfect for those who are always on the go, since it comes with a slim and foldable design, which you can carry and store with much ease. It also comes with 30mm driver units and can handle high power input of up to 1,000mW for matchless sound quality."
+    },
+    {
+        "productID":"789769",
+        "productName":"Moto E",
+        "available":"10",
+        "price":"6999",
+        "imageUrl":"/images/motoe.jpg",
+        "description":"Android v4.4 (KitKat) OS, Wi-Fi Enabled, FM Radio, 1.2 GHz MSM8x10 Dual Core Processor, Dual Standby SIM (GSM + GSM), 5 MP Primary Camera, 4.3-inch Touchscreen"
+    },
+    {
+        "productID":"612347",
+        "productName":"Woodland Shoes",
+        "available":"7",
+        "price":"1999",
+        "imageUrl":"/images/shoe.jpg",
+        "description":"Woodland presents these camel coloured outdoor shoes, which are a perfect combination of style and comfort. The suede leather upper sets these outdoor shoes a class apart from others. The TPR (thermoplastic rubber) sole ensures complete comfort and optimal surface traction."
+    },
+    {
+        "productID":"671232",
+        "productName":"Sandals",
+        "available":"5",
+        "price":"599",
+        "imageUrl":"/images/sandals.jpg",
+        "description":"Make a note to get noticed wearing Do Bhai Collection slippers in purple colour. Sleek finish and comfortable sole of this pair of slippers will make your feet feel out of this world. Fill the space with magic as you wear this pair with linen trousers and a cowl neck top."
+    },
+    {
+        "productID":"324177",
+        "productName":"Watch",
+        "available":"19",
+        "price":"1099",
+        "imageUrl":"/images/watch.jpg",
+        "description":"Casio presents this black stopwatch that is detailed with auto-retrieve function to restore data. Set in a plastic case and featuring a rectangular dial, this unisex stopwatch is ideal for swimming, sports and other athletic activities. It is water-resistant upto 50 m and comes with 2-year warranty against defects."
+    },
+    {
+        "productID":"063727",
+        "productName":"Nexus 5",
+        "available":"3",
+        "price":"19999",
+        "imageUrl":"/images/nexus5.jpg",
+        "description":"Android v4.4 (KitKat) OS, 4.95-inch Full HD IPS Touchscreen, 2.3 GHz Qualcomm Snapdragon 800 Processor, 8 MP Primary Camera, NFC Support and Built-in Wireless Charging, Wi-Fi Enabled and 2 GB RAM, 16 GB Internal Storage"
+    },
+    {
+        "productID":"268556",
+        "productName":"Bag",
+        "available":"2",
+        "price":"609",
+        "imageUrl":"/images/bag.jpg",
+        "description":"Sashay down the street carrying this stylish, blue coloured sling bag for women from the house of Lavie. Made from synthetic fabric, this sling bag will last for years to come. It features enough space to adjust your daily stuff with ease. Carry it with your casual attire to look gorgeous."
+    },
+    {
+        "productID":"092746",
+        "productName":"Jeans",
+        "available":"5",
+        "price":"709",
+        "imageUrl":"/images/jeans.jpg",
+        "description":"Get set to funk up your style quotient this summer wearing these trendy blue coloured jeans from FLYING MACHINE. The slim fit and washed effect add to the fashion appeal of these jeans, while the stretch cotton fabric assures pure comfort all day long."
+    },
+    {
+        "productID":"2430987",
+        "productName":"Music System",
+        "available":"3",
+        "price":"5000",
+        "imageUrl":"/images/musicsystem.jpg",
+        "description":"Bring your favorite music to life without complication and clutter. And with more music playback options in one compact, integrated stereo system, the MHC-EC619iP fits all your music needs with room-filling, expansive sound for your favorite playlists, CDs, radio stations, audio apps, and more. Powerful, all-in-one design. "
+    },
+    {
+        "productID":"523987",
+        "productName":"T-Shirt",
+        "available":"6",
+        "price":"699",
+        "imageUrl":"/images/tshirt.jpg",
+        "description":"Send your summer your cool-quotient soaring, by wearing this white T-shirt from the house of Mickey. High on style because of its trendy Mickey Mouse print, this T-shirt also offers superb comfort, thanks to its cotton fabric."
+    },
+    {
+        "productID":"754327",
+        "productName":"Wardrobe",
+        "available":"1",
+        "price":"5999",
+        "imageUrl":"/images/wardrobe.jpg",
+        "description":"Snapdeal presents this fine product from one of the most respected brands in the country: Home Trading International. They are one of the largest dealers of authentic Indian furniture with their Branch Office in the South of England, supplying many types and styles of furniture. Their Indian furniture styles include traditional ranges such as Thakat, Jali and Maharani, as well as some of the more modern styles such as Slate, Cube and the Urban. All of their Indian furniture is hand crafted using traditional techniques, and all their furniture is made in the western province of India known as Rajasthan, The Land of the Kings Maharajas."
+    },
+    {
+        "productID":"754627",
+        "productName":"Refrigerator",
+        "available":"10",
+        "price":"12599",
+        "imageUrl":"/images/refrigerator.jpg",
+        "description":"80 Litre Storage Capacity BEE 3 Star Rating Single Door Stabiliser Free Operation Insitu Door Foaming Anti-bacterial Door Gasket PCM Finish Door Lock"
+    }
+]

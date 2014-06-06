@@ -1,0 +1,51 @@
+//created by Amit on 5/5/14.
+.container
+    .col-lg-12
+        hr
+        .col-lg-2
+            | Item Id
+        .col-lg-4
+            | Item Name
+        .col-lg-1(align='center')
+            | Quantity
+        .col-lg-2(align='center')
+            | Unit Price
+        .col-lg-2(align='center')
+            | Sub Total
+        .col-lg-1(align='center')
+            | Option
+    div.col-lg-12(ng-repeat="product in cart")
+        hr
+        .col-lg-2
+            | {{product.productID}}
+        .col-lg-4
+            | {{product.productName}}
+        .col-lg-1(align='center')
+            | {{product.Quantity}}
+        .col-lg-2(align='center')
+            | {{product.Price|currency:"Rs."}}
+        .col-lg-2(align='center')
+            | {{product.subTotal|currency:"Rs."}}
+        .col-lg-1(align='center')
+            button.btn.btn-danger.btn-sm(ng-click='Remove(this)') Remove
+    .col-lg-12
+        hr
+        .col-lg-4
+        .col-lg-4
+            .alert.alert-danger(align='center', ng-show='error')
+                | No product in cart
+    .col-lg-12
+        hr
+        .col-lg-7
+        .col-lg-2(align='center')
+            | Total :
+        .col-lg-3(align='center')
+            | {{Total|currency:"Rs."}}
+    .col-lg-3
+        a.btn.btn-info(ng-href='/') Continue Shopping
+    .col-lg-3#checkout
+        button.btn.btn-warning(ng-click='checkout()', ng-hide='error') Checkout
+
+
+
+

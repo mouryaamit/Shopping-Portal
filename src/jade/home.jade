@@ -1,0 +1,13 @@
+//created by Amit on 5/5/14.
+.container
+    div(ng-repeat="product in products")
+        .col-lg-4
+            .col-lg-1
+            .col-lg-10.border.product(align='center')
+                img.products-img(src='{{product.imageUrl}}')
+            .col-lg-12.products(align='center')
+                | {{product.productName}}
+                br
+                | Rs.{{product.price}}
+                br
+                a.btn.btn-danger(ng-href='#/product/{{product.productID}}') BUY NOW

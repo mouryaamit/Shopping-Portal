@@ -1,0 +1,28 @@
+//created by Amit on 5/5/14.
+.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+    .container
+        .navbar-header
+            button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand(ng-href="#") Shopping Portal
+        .navbar-collapse.collapse
+            ul.nav.navbar-nav
+                li.active
+                    a(ng-href="#") Products
+                        span.icon.glyphicon.glyphicon-th
+                li.active
+                    a(ng-href="#about") About Us
+                        span.icon.glyphicon.glyphicon-info-sign
+                li.active
+                    a(ng-href="#contact") Contact Us
+                        span.icon.glyphicon.glyphicon-comment
+            .navbar-right
+                ul.nav.navbar-nav
+                    li.active
+                        a(href="#cart") Cart
+                            span.icon.glyphicon.glyphicon-shopping-cart
+

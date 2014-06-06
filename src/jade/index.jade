@@ -1,0 +1,14 @@
+//created by Amit on 5/5/14.
+doctype
+html(ng-app='myApp')
+   head
+       link(href="lib.min.css", rel="stylesheet")
+       link(href="all.min.css", rel="stylesheet")
+       script(src="lib.min.js")
+       script(src="service.min.js")
+       script(src="app.min.js")
+       script(src="all.min.js")
+       title Shopping Portal Demo
+   body
+       div(ui-view="viewA")
+       div(ui-view="viewB")
